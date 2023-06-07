@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-text {
+  color: white;
+}
+
+.navbar-text:hover{
+  color:aqua;
+}
+
+.navbar-text-brand {
+  color: white;
+  font-size: 25px;
+}
+
+
+.navbar-text-brand:hover{
+  color:aqua;
+}
+
+#basic-nav-dropdown {
+  color: white;
+}
+
+#basic-nav-dropdown:hover{
+  color: aqua;
+}
+
+.landing-col{
+  text-align: center;
+  background-image: url(./assets/Landing.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 90vh;
+}
+
+.col-text{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.col-text2{
+  text-align: center;
+  padding-top: 50px;
 }
