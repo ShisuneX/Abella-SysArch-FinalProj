@@ -118,3 +118,94 @@
   padding-top: 200px;
   padding-left: 50px;
 }
+
+.navbar-style{
+  padding-left: 20px;
+  padding-right: 60px;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 5px;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+.contact-button-fb{
+  background-image: url(./assets/fblogo.png);
+  background-size: cover;
+  background-color: white;
+  border-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-button-fb:hover{
+  background-color: white;
+}
+
+.contact-button-msngr{
+  background-image: url(./assets/msngrlogo.png);
+  background-size: cover;
+  background-color: white;
+  border-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-button-msngr:hover{
+  background-color: white;
+}
+
+.contact-button-twt{
+  background-image: url(./assets/twtlogo.png);
+  background-size: cover;
+  background-color: white;
+  border-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-button-twt:hover{
+  background-color: white;
+}
+
+.contact-text{
+  text-align: justify;
+  padding-top: 100px;
+  padding-left: 300px;
+}
+
+.contact-col{
+  text-align: center;
+  background-image: url(./assets/contact.png);
+  background-position: left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 90vh;
+}
