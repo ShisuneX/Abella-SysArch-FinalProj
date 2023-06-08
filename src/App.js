@@ -3,6 +3,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom'
 import { Landing } from "./pages/LandingPage"
 import { NavBar } from './components/NavBar'
+import { AboutUs } from './pages/AboutUsPage';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Landing/>} />
-
+        <Route path="/about" element ={<AboutUs/>} />
       </Routes>
     </>
   );

@@ -83,3 +83,38 @@
   text-align: center;
   padding-top: 50px;
 }
+
+.aboutus-col{
+  text-align: center;
+  background-image: url(./assets/about.jpg);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 90vh;
+}
+
+.aboutus-text{
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.aboutus-text-subheader{
+  text-align: center;
+  font-style: italic;
+}
+
+.aboutus-text-info{
+  text-align: justify;
+  padding-top: 40px;
+  padding-left: 125px;
+  padding-right: 125px;
+  line-height: 50px;
+}
+
+.aboutus-text-contact{
+  text-align: center;
+  padding-top: 200px;
+  padding-left: 50px;
+}
